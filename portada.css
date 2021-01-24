@@ -1,0 +1,51 @@
+/* portada */
+
+.navegacion1 {
+    padding: 0 60px;
+    font-size: 1.7rem;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navegacion1 ul {
+    display: flex;
+  }
+  
+  .navegacion1 ul li {
+    list-style: none;
+  }
+  
+  .navegacion1 ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .portada1 {
+    background-image: url("https://source.unsplash.com/random/600x600");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .filtro1 {
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    font-size: 2rem;
+    color: white;
+  }
+  
+  .contenido {
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @media(max-width: 700px) {
+    .navegacion1 {
+      padding: 0 15px;
+    }
+}

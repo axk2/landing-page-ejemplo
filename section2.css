@@ -1,0 +1,36 @@
+/* seccion2  */
+.seccion2 {
+    height: 500px;
+    background-color: orange;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+  
+.izquierda {
+    background-image: url("https://source.unsplash.com/random/1200x400");
+    background-position:center;
+    background-size: cover;
+}
+  
+.derecha {
+    font-size: 1.6rem;
+    margin-top: 90px;
+    padding: 50px;
+    text-align: center;
+}
+  
+@media(max-width: 700px) {
+    .seccion2 {
+      grid-template-columns: 1fr;
+      height: 700px;
+    }
+  
+    .sostenedor {
+      height: 200px;
+    }
+  
+    .derecha {
+      margin: 0px;
+      padding: 50px;
+    }
+}
